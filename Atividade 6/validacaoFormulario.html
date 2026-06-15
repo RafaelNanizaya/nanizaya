@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validação de Formulário</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h2>Validação de Formulário</h2>
+
+        <p class="descricao">
+            Preencha todos os campos corretamente antes de enviar.
+        </p>
+
+        <form onsubmit="return validaCampos()">
+
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" placeholder="Digite seu nome completo">
+
+            <label for="email">E-mail</label>
+            <input type="email" id="email" placeholder="Digite seu e-mail">
+
+            <label for="cpf">CPF</label>
+            <input type="text" id="cpf" placeholder="Somente números">
+
+            <label for="telefone">Telefone</label>
+            <input type="text" id="telefone" placeholder="DDD + número">
+
+            <label>Sexo</label>
+
+            <div class="radio-group">
+                <label>
+                    <input type="radio" name="sexo" value="Masculino">
+                    Masculino
+                </label>
+
+                <label>
+                    <input type="radio" name="sexo" value="Feminino">
+                    Feminino
+                </label>
+            </div>
+
+            <input type="submit" value="Enviar">
+
+        </form>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
