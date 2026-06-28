@@ -1,42 +1,22 @@
-```javascript
-document
-.getElementById("formContato")
-.addEventListener("submit", function(event){
-
-    event.preventDefault();
-
-    const nome =
-    document.getElementById("nome").value.trim();
-
-    const email =
-    document.getElementById("email").value.trim();
-
-    const servico =
-    document.getElementById("servico").value;
-
-    const mensagem =
-    document.getElementById("mensagem").value.trim();
-
-    if(nome.length < 3){
-        alert("Digite um nome válido.");
-        return;
-    }
-
-    if(!email.includes("@")){
-        alert("Digite um email válido.");
-        return;
-    }
-
-    if(servico === ""){
-        alert("Selecione um serviço.");
-        return;
-    }
-
-    if(mensagem.length < 10){
-        alert("Descreva melhor sua necessidade.");
-        return;
-    }
-
-    alert("Mensagem enviada com sucesso!");
+document.addEventListener('DOMContentLoaded', () => {
+    const toggle = document.getElementById('menu-toggle'), menu = document.getElementById('mobile-menu'), form = document.getElementById('contact-form');
+    toggle.onclick = () => menu.classList.toggle('hidden');
+    menu.onclick = () => menu.classList.add('hidden');
+    form.onsubmit = (e) => {
+        e.preventDefault();
+        let valid = true;
+        ['name', 'email', 'message'].forEach(id => {
+            const el = document.getElementById(id), err = document.getElementById(id + '-error'), val = el.value.trim();
+            const isEmail = id === 'email' && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(val);
+            const isEmpty = val === "";
+            if (isEmpty || isEmail) {
+                el.classList.add('border-red-500'); err.classList.remove('hidden'); valid = false;
+            } else {
+                el.classList.remove('border-red-500'); err.classList.add('hidden');
+            }
+        });
+        if (valid) {
+            form.innerHTML = '<div class="text-green-600 font-bold p-4">Mensagem enviada com sucesso!</div>';
+        }
+    };
 });
-```
