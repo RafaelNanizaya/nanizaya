@@ -1,0 +1,48 @@
+{
+  "alvo": "https://barbearia-navalha.pages.dev",
+  "inicio": "2026-10-17T04:22:22.062Z",
+  "fim": "2026-10-17T04:31:22.799Z",
+  "intervalo_s": 60,
+  "timeout_ms": 10000,
+  "rodadas": 10,
+  "requisicoes": 90,
+  "estados_das_rodadas": {
+    "disponivel": 10
+  },
+  "classes_de_resultado": {
+    "sucesso": 80,
+    "redirecionamento_esperado": 10
+  },
+  "disponibilidade_observada_pct": 100,
+  "pagina_principal_total_ms": {
+    "min": 98.2,
+    "media": 281.2,
+    "mediana": 133.7,
+    "p90": 181,
+    "p95": 1605.6,
+    "max": 1605.6
+  },
+  "pagina_principal_ttfb_ms": {
+    "mediana": 128.5,
+    "p95": 1601.4
+  },
+  "redirecionamento_http": [
+    "301 → https://barbearia-navalha.pages.dev/"
+  ],
+  "status_por_tipo": {
+    "pagina_principal": {
+      "200": 10
+    },
+    "http_para_https": {
+      "301": 10
+    },
+    "recurso": {
+      "200": 60
+    },
+    "rota_inexistente": {
+      "404": 10
+    }
+  },
+  "cf_cache_status": {},
+  "log": "reports/evidencias/disponibilidade-2026-10-17T04-22-22.jsonl"
+}

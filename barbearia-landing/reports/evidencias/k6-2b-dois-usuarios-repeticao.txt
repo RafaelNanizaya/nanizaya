@@ -1,0 +1,55 @@
+=== INÍCIO 2b-dois-usuarios-repeticao 2026-10-17T04:37:49Z (UTC)
+$ k6 run -e BASE_URL=https://barbearia-navalha.pages.dev -e VUS=2 -e DURATION=60s --summary-export reports/evidencias/k6-2b-dois-usuarios-repeticao-resumo.json --out csv=<scratchpad>/k6-2b.csv tests/load-test.k6.js
+
+
+  █ THRESHOLDS 
+
+    checks
+    ✓ 'rate>0.99' rate=100.00%
+
+    http_req_duration
+    ✓ 'p(95)<3000' p(95)=68.73ms
+
+    http_req_failed
+    ✓ 'rate<0.05' rate=0.00%
+
+    respostas_limitacao_429_503
+    ✓ 'count<1' count=0
+
+
+  █ TOTAL RESULTS 
+
+    checks_total.......: 238     3.796562/s
+    checks_succeeded...: 100.00% 238 out of 238
+    checks_failed......: 0.00%   0 out of 238
+
+    ✓ html: status 200
+    ✓ html: contém o título da barbearia
+    ✓ css: status 200
+    ✓ js_config: status 200
+    ✓ js_main: status 200
+    ✓ img_hero: status 200
+    ✓ fonte_titulos: status 200
+
+    CUSTOM
+    respostas_limitacao_429_503....: 0      0/s
+
+    HTTP
+    http_req_duration..............: avg=43.27ms min=28.78ms med=39.8ms max=100.14ms p(90)=59.21ms p(95)=68.73ms
+      { expected_response:true }...: avg=43.27ms min=28.78ms med=39.8ms max=100.14ms p(90)=59.21ms p(95)=68.73ms
+    http_req_failed................: 0.00%  0 out of 204
+    http_reqs......................: 204    3.254196/s
+
+    EXECUTION
+    iteration_duration.............: avg=3.63s   min=2.56s   med=3.73s  max=4.91s    p(90)=4.36s   p(95)=4.43s  
+    iterations.....................: 34     0.542366/s
+    vus............................: 1      min=1        max=2
+    vus_max........................: 2      min=2        max=2
+
+    NETWORK
+    data_received..................: 4.4 MB 70 kB/s
+    data_sent......................: 27 kB  433 B/s
+
+
+
+=== FIM 2026-10-17T04:38:52Z (UTC) código de saída=0

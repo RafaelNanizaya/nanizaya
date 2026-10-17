@@ -9,6 +9,7 @@
     "test:disponibilidade": "node availability-check.mjs"
   },
   "devDependencies": {
+    "marked": "18.1.1",
     "puppeteer-core": "24.10.0"
   }
 }

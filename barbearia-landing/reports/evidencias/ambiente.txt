@@ -1,0 +1,15 @@
+Ambiente de execução dos testes (máquina local do responsável pelo projeto)
+Sistema operacional: Microsoft Windows 11 Pro (build 10.0.26200), x86_64
+CPU: 12th Gen Intel(R) Core(TM) i5-12450H
+RAM: 15,7 GB
+Fuso horário da máquina: Central Brazilian Standard Time (UTC-04:00)
+Conexão: rede doméstica/residencial do responsável (sem medição de banda); borda Cloudflare atendente: GRU (São Paulo), conforme cabeçalho CF-RAY
+Node.js: v24.21.0
+npm: 11.19.0
+Git: 2.55.0.windows.1
+curl: 8.21.0
+k6: v2.3.0 (commit/e088784614, go1.26.8, windows/amd64) — binário oficial do GitHub, SHA-256 verificado (112276d4…8ce43)
+Wrangler: 4.151.1
+Chrome (headless, via puppeteer-core): 155.0.8059.82
+puppeteer-core: 24.10.0
+sharp (somente na preparação das imagens, não faz parte do projeto): 0.34.5

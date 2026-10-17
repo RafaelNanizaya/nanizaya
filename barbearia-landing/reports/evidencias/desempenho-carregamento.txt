@@ -1,0 +1,2 @@
+celular (carga inicial, sem cache, antes de rolar): {"ttfb":133,"dcl":311,"load":338,"lcp":436,"requisicoes":9,"transferido_kb":136,"html_kb":8.2,"protocolo":"h2"}
+desktop (carga inicial, sem cache, antes de rolar): {"ttfb":58,"dcl":266,"load":303,"lcp":328,"requisicoes":8,"transferido_kb":150,"html_kb":8.2,"protocolo":"h3"}

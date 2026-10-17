@@ -1,0 +1,37 @@
+# Registro de implantação — Cloudflare Pages
+# Comando: wrangler pages deploy dist --project-name barbearia-navalha --branch main --commit-hash <hash> --commit-message "..." --commit-dirty=true
+# Executado em: 2026-10-17 (horário no log do wrangler: 04:2x UTC)
+
+ ⛅️ wrangler 4.151.1
+────────────────────
+Uploading... (0/32)
+Uploading... (11/32)
+Uploading... (22/32)
+Uploading... (32/32)
+✨ Success! Uploaded 32 files (1.84 sec)
+✨ Uploading _headers
+🌎 Deploying...
+✨ Deployment complete! Take a peek over at https://83af21af.barbearia-navalha.pages.dev
+
+# wrangler pages project list
+[
+  {
+    "Project Name": "barbearia-navalha",
+    "Project Domains": "barbearia-navalha.pages.dev",
+    "Git Provider": "No",
+    "Last Modified": "2 minutes ago"
+  }
+]
+
+# wrangler pages deployment list --project-name barbearia-navalha
+[
+  {
+    "Id": "83af21af-0fe5-4616-b90a-4d33077120b6",
+    "Environment": "Production",
+    "Branch": "main",
+    "Source": "959ee1a",
+    "Deployment": "https://83af21af.barbearia-navalha.pages.dev",
+    "Status": "2 minutes ago",
+    "Build": "https://dash.cloudflare.com/<account-id>/pages/view/barbearia-navalha/83af21af-0fe5-4616-b90a-4d33077120b6"
+  }
+]

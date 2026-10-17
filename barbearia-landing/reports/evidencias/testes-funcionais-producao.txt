@@ -1,0 +1,66 @@
+PASSOU  [layout celular 360px] página inicial responde 200 — HTTP 200
+PASSOU  [layout celular 360px] sem rolagem horizontal — excesso 0px
+PASSOU  [layout celular 360px] todas as imagens carregadas — 8/8
+PASSOU  [layout celular 360px] fontes Playfair Display e Inter carregadas — [true,true]
+PASSOU  [layout celular 360px] botão de menu móvel visível e menu recolhido
+PASSOU  [layout celular 360px] sem erros de JavaScript
+PASSOU  [layout celular 360px] sem erros/avisos no console
+PASSOU  [layout celular 360px] sem falhas de rede ou HTTP ≥ 400
+PASSOU  [layout tablet 768px] página inicial responde 200 — HTTP 200
+PASSOU  [layout tablet 768px] sem rolagem horizontal — excesso 0px
+PASSOU  [layout tablet 768px] todas as imagens carregadas — 8/8
+PASSOU  [layout tablet 768px] fontes Playfair Display e Inter carregadas — [true,true]
+PASSOU  [layout tablet 768px] botão de menu móvel visível e menu recolhido
+PASSOU  [layout tablet 768px] sem erros de JavaScript
+PASSOU  [layout tablet 768px] sem erros/avisos no console
+PASSOU  [layout tablet 768px] sem falhas de rede ou HTTP ≥ 400
+PASSOU  [layout desktop 1366px] página inicial responde 200 — HTTP 200
+PASSOU  [layout desktop 1366px] sem rolagem horizontal — excesso 0px
+PASSOU  [layout desktop 1366px] todas as imagens carregadas — 8/8
+PASSOU  [layout desktop 1366px] fontes Playfair Display e Inter carregadas — [true,true]
+PASSOU  [layout desktop 1366px] navegação completa visível e botão de menu oculto
+PASSOU  [layout desktop 1366px] sem erros de JavaScript
+PASSOU  [layout desktop 1366px] sem erros/avisos no console
+PASSOU  [layout desktop 1366px] sem falhas de rede ou HTTP ≥ 400
+PASSOU  [metadados e acessibilidade] lang=pt-BR — pt-BR
+PASSOU  [metadados e acessibilidade] título definido — Barbearia Navalha — Corte, barba e cuidado masculino
+PASSOU  [metadados e acessibilidade] meta description (50–170 caracteres) — 169 caracteres
+PASSOU  [metadados e acessibilidade] meta viewport, favicon e Open Graph
+PASSOU  [metadados e acessibilidade] exatamente um <h1> — 1
+PASSOU  [metadados e acessibilidade] landmarks header/nav/main/footer
+PASSOU  [metadados e acessibilidade] todas as imagens com texto alternativo
+PASSOU  [metadados e acessibilidade] sem IDs duplicados
+PASSOU  [metadados e acessibilidade] campos de formulário com <label>
+PASSOU  [metadados e acessibilidade] links e botões com nome acessível — 0 sem nome
+PASSOU  [metadados e acessibilidade] âncoras internas apontam para IDs existentes — todas válidas
+PASSOU  [metadados e acessibilidade] nenhum recurso de domínio externo carregado
+PASSOU  [metadados e acessibilidade] links e recursos relativos respondem 200 — 17 verificados
+PASSOU  [metadados e acessibilidade] primeiro Tab foca o link 'Pular para o conteúdo' — Pular para o conteúdo
+PASSOU  [metadados e acessibilidade] /creditos.html responde 200 — HTTP 200
+PASSOU  [metadados e acessibilidade] /404.html responde 200 — HTTP 200
+PASSOU  [metadados e acessibilidade] rota inexistente responde 404 com página própria — HTTP 404
+PASSOU  [menu móvel] abre ao tocar no botão (aria-expanded=true) — {"exp":"true","vis":"visible","label":"Fechar menu"}
+PASSOU  [menu móvel] menu aberto encosta no cabeçalho (sem faixa vazia) — diferença -1px
+PASSOU  [menu móvel] fecha com Esc e devolve o foco ao botão — {"exp":"false","foco":"menu-toggle"}
+PASSOU  [menu móvel] link do menu fecha o menu e rola até a seção — {"exp":"false","hash":"#precos","topo":84}
+PASSOU  [menu móvel] sem erros de JavaScript
+PASSOU  [botões e interações] CTAs (botões com âncora) apontam para seções existentes — 7 botões: #agendar #servicos
+PASSOU  [botões e interações] botão do card de preço pré-seleciona o serviço — Corte + Barba
+PASSOU  [botões e interações] botão WhatsApp em modo demo abre a prévia (sem sair do site) — Olá! Vim pelo site da Barbearia Navalha e gostaria de agendar um horário.
+PASSOU  [botões e interações] diálogo fecha com Esc
+PASSOU  [botões e interações] número exibido identificado como demonstrativo — (00) 00000-0000 — número demonstrativo
+PASSOU  [botões e interações] pergunta do FAQ expande ao clicar
+PASSOU  [botões e interações] indicador 'aberto/fechado agora' preenchido — Fechado agora · abre hoje às 08:00
+PASSOU  [formulário] envio vazio é bloqueado e marca os campos obrigatórios — nome, telefone, servico, data, horario
+PASSOU  [formulário] mensagem de erro geral e foco no primeiro campo inválido — Corrija os 5 campos destacados para continuar. / foco: nome
+PASSOU  [formulário] telefone incompleto exibe erro específico — Use o formato (00) 00000-0000, com DDD.
+PASSOU  [formulário] domingo é recusado e horários ficam indisponíveis — {"erro":"Não abrimos neste dia. Escolha outra data.","hor":true}
+PASSOU  [formulário] terça-feira oferece horários de 09:00 a 19:30 — 22 horários: 09:00…19:30
+PASSOU  [formulário] máscara de telefone aplicada — (11) 98765-4321
+PASSOU  [formulário] contador de caracteres das observações — 19/300 caracteres
+PASSOU  [formulário] envio válido abre a prévia com os dados preenchidos — Olá! Gostaria de agendar um horário na Barbearia Navalha. |  | Nome: Cliente Teste | Telefone: (11) 98765-4321 | Serviço: Barboterapia | Profissional: Lucas Moreira | Data: 20/10/2026 (terça-feira) | Horário: 10:30 | Observações: Teste automatizado.
+PASSOU  [formulário] status informa que nada foi enviado ou armazenado — Prévia gerada. Como este site é demonstrativo, nenhum dado foi enviado ou armazenado.
+PASSOU  [formulário] estado de carregamento é encerrado após o envio — aria-busy=false
+PASSOU  [formulário] sem erros de JavaScript
+
+64/64 verificações passaram (Chrome/155.0.8059.82). Evidências em reports/evidencias/

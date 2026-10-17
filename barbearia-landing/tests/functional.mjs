@@ -44,6 +44,8 @@ const versao = await browser.version();
 async function novaPagina(vp) {
   const page = await browser.newPage();
   await page.setViewport(vp);
+  // Cada página carrega tudo do zero; sem isso a 2ª largura recebe 304 (revalidação de cache).
+  await page.setCacheEnabled(false);
   const problemas = { console: [], paginaErros: [], rede: [] };
   page.on("console", (m) => { if (["error", "warn"].includes(m.type())) problemas.console.push(`${m.type()}: ${m.text()}`); });
   page.on("pageerror", (e) => problemas.paginaErros.push(e.message));

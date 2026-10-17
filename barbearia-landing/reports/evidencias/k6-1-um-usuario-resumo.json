@@ -1,0 +1,185 @@
+{
+    "metrics": {
+        "vus": {
+            "max": 1,
+            "value": 1,
+            "min": 1
+        },
+        "http_req_receiving": {
+            "max": 25.0734,
+            "p(90)": 14.00695,
+            "p(95)": 16.496775,
+            "avg": 5.49355625,
+            "min": 0,
+            "med": 3.40345
+        },
+        "iteration_duration": {
+            "avg": 3758.4590000000003,
+            "min": 2601.0862,
+            "med": 3855.3536,
+            "max": 4512.06,
+            "p(90)": 4394.78285,
+            "p(95)": 4433.819025
+        },
+        "http_req_duration": {
+            "avg": 42.90704583333336,
+            "min": 29.4201,
+            "med": 39.8959,
+            "max": 74.6987,
+            "p(90)": 58.55475,
+            "p(95)": 60.533150000000006,
+            "thresholds": {
+                "p(95)<3000": false
+            }
+        },
+        "data_sent": {
+            "count": 13921,
+            "rate": 231.49447685873383
+        },
+        "http_req_tls_handshaking": {
+            "avg": 0.46613125000000005,
+            "min": 0,
+            "med": 0,
+            "max": 44.7486,
+            "p(90)": 0,
+            "p(95)": 0
+        },
+        "http_req_duration{expected_response:true}": {
+            "avg": 42.90704583333336,
+            "min": 29.4201,
+            "med": 39.8959,
+            "max": 74.6987,
+            "p(90)": 58.55475,
+            "p(95)": 60.533150000000006
+        },
+        "vus_max": {
+            "value": 1,
+            "min": 1,
+            "max": 1
+        },
+        "iterations": {
+            "count": 16,
+            "rate": 0.26606649161265294
+        },
+        "http_reqs": {
+            "count": 96,
+            "rate": 1.5963989496759177
+        },
+        "http_req_blocked": {
+            "avg": 0.792096875,
+            "min": 0,
+            "med": 0,
+            "max": 76.0413,
+            "p(90)": 0,
+            "p(95)": 0
+        },
+        "http_req_sending": {
+            "med": 0,
+            "max": 0.5324,
+            "p(90)": 0.3104,
+            "p(95)": 0.372625,
+            "avg": 0.0480625,
+            "min": 0
+        },
+        "data_received": {
+            "count": 2052714,
+            "rate": 34134.90076651095
+        },
+        "http_req_waiting": {
+            "avg": 37.36542708333333,
+            "min": 27.478,
+            "med": 34.5489,
+            "max": 59.5368,
+            "p(90)": 49.9698,
+            "p(95)": 54.896975000000005
+        },
+        "checks": {
+            "passes": 112,
+            "fails": 0,
+            "thresholds": {
+                "rate>0.99": false
+            },
+            "value": 1
+        },
+        "http_req_failed": {
+            "passes": 0,
+            "fails": 96,
+            "thresholds": {
+                "rate<0.05": false
+            },
+            "value": 0
+        },
+        "respostas_limitacao_429_503": {
+            "rate": 0,
+            "count": 0,
+            "thresholds": {
+                "count<1": false
+            }
+        },
+        "http_req_connecting": {
+            "max": 23.022,
+            "p(90)": 0,
+            "p(95)": 0,
+            "avg": 0.23981249999999998,
+            "min": 0,
+            "med": 0
+        }
+    },
+    "root_group": {
+        "groups": {},
+        "checks": {
+                "html: status 200": {
+                    "id": "969f8eb262b324b6407e810a5bd6bbef",
+                    "passes": 16,
+                    "fails": 0,
+                    "name": "html: status 200",
+                    "path": "::html: status 200"
+                },
+                "html: contém o título da barbearia": {
+                    "name": "html: contém o título da barbearia",
+                    "path": "::html: contém o título da barbearia",
+                    "id": "14c4416328f59c5f20ed8560fcf62f88",
+                    "passes": 16,
+                    "fails": 0
+                },
+                "css: status 200": {
+                    "name": "css: status 200",
+                    "path": "::css: status 200",
+                    "id": "4e535a27048c0b0b234f82154f9ffa9d",
+                    "passes": 16,
+                    "fails": 0
+                },
+                "js_config: status 200": {
+                    "fails": 0,
+                    "name": "js_config: status 200",
+                    "path": "::js_config: status 200",
+                    "id": "e1f6dbfd4206d55eb14fb3104a495bb4",
+                    "passes": 16
+                },
+                "js_main: status 200": {
+                    "name": "js_main: status 200",
+                    "path": "::js_main: status 200",
+                    "id": "585d52e13551b8c8dad041a28c166c64",
+                    "passes": 16,
+                    "fails": 0
+                },
+                "img_hero: status 200": {
+                    "name": "img_hero: status 200",
+                    "path": "::img_hero: status 200",
+                    "id": "b09bc8e4514f26669d8b8a068e6d5863",
+                    "passes": 16,
+                    "fails": 0
+                },
+                "fonte_titulos: status 200": {
+                    "path": "::fonte_titulos: status 200",
+                    "id": "9af08ef082d5780013ec2f95a09c2951",
+                    "passes": 16,
+                    "fails": 0,
+                    "name": "fonte_titulos: status 200"
+                }
+            },
+        "name": "",
+        "path": "",
+        "id": "d41d8cd98f00b204e9800998ecf8427e"
+    }
+}

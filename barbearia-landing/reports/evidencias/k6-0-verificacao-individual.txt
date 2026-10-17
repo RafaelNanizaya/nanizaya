@@ -1,0 +1,75 @@
+=== INÍCIO 0-verificacao-individual 2026-10-17T04:31:36Z (UTC)
+$ k6 run -e BASE_URL=https://barbearia-navalha.pages.dev -e VUS=1 -e ITERATIONS=1 --summary-export reports/evidencias/k6-0-verificacao-individual-resumo.json tests/load-test.k6.js
+
+         /\      Grafana   /‾‾/  
+    /\  /  \     |\  __   /  /   
+   /  \/    \    | |/ /  /   ‾‾\ 
+  /          \   |   (  |  (‾)  |
+ / __________ \  |_|\_\  \_____/ 
+
+
+     execution: local
+        script: tests/load-test.k6.js
+        output: -
+
+     scenarios: (100.00%) 1 scenario, 1 max VUs, 1m30s max duration (incl. graceful stop):
+              * carga_leve: 1 iterations for each of 1 VUs (maxDuration: 1m0s, gracefulStop: 30s)
+
+
+
+
+
+
+  █ THRESHOLDS 
+
+    checks
+    ✓ 'rate>0.99' rate=100.00%
+
+    http_req_duration
+    ✓ 'p(95)<3000' p(95)=75.35ms
+
+    http_req_failed
+    ✓ 'rate<0.05' rate=0.00%
+
+    respostas_limitacao_429_503
+    ✓ 'count<1' count=0
+
+
+  █ TOTAL RESULTS 
+
+    checks_total.......: 7       2.112106/s
+    checks_succeeded...: 100.00% 7 out of 7
+    checks_failed......: 0.00%   0 out of 7
+
+    ✓ html: status 200
+    ✓ html: contém o título da barbearia
+    ✓ css: status 200
+    ✓ js_config: status 200
+    ✓ js_main: status 200
+    ✓ img_hero: status 200
+    ✓ fonte_titulos: status 200
+
+    CUSTOM
+    respostas_limitacao_429_503....: 0      0/s
+
+    HTTP
+    http_req_duration..............: avg=61.1ms min=44.01ms med=60.31ms max=78.88ms p(90)=71.82ms p(95)=75.35ms
+      { expected_response:true }...: avg=61.1ms min=44.01ms med=60.31ms max=78.88ms p(90)=71.82ms p(95)=75.35ms
+    http_req_failed................: 0.00%  0 out of 6
+    http_reqs......................: 6      1.810377/s
+
+    EXECUTION
+    iteration_duration.............: avg=3.31s  min=3.31s   med=3.31s   max=3.31s   p(90)=3.31s   p(95)=3.31s  
+    iterations.....................: 1      0.301729/s
+    vus............................: 1      min=1      max=1
+    vus_max........................: 1      min=1      max=1
+
+    NETWORK
+    data_received..................: 134 kB 41 kB/s
+    data_sent......................: 2.8 kB 848 B/s
+
+
+
+
+carga_leve ✓ [ 100% ] 1 VUs  0m03.3s/1m0s  1/1 iters, 1 per VU
+=== FIM 0-verificacao-individual 2026-10-17T04:31:40Z (UTC) código de saída=0

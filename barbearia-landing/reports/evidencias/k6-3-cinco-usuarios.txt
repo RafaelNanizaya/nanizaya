@@ -1,0 +1,138 @@
+=== INÍCIO 3-cinco-usuarios 2026-10-17T04:36:14Z (UTC)
+$ k6 run -e BASE_URL=https://barbearia-navalha.pages.dev -e VUS=5 -e DURATION=60s --summary-export reports/evidencias/k6-3-cinco-usuarios-resumo.json tests/load-test.k6.js
+
+         /\      Grafana   /‾‾/  
+    /\  /  \     |\  __   /  /   
+   /  \/    \    | |/ /  /   ‾‾\ 
+  /          \   |   (  |  (‾)  |
+ / __________ \  |_|\_\  \_____/ 
+
+
+     execution: local
+        script: tests/load-test.k6.js
+        output: -
+
+     scenarios: (100.00%) 1 scenario, 5 max VUs, 1m10s max duration (incl. graceful stop):
+              * carga_leve: 5 looping VUs for 1m0s (gracefulStop: 10s)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+carga_leve ↓ [ 100% ] 5 VUs  1m0s
+
+carga_leve ↓ [ 100% ] 5 VUs  1m0s
+
+carga_leve ↓ [ 100% ] 5 VUs  1m0s
+
+
+  █ THRESHOLDS 
+
+    checks
+    ✓ 'rate>0.99' rate=100.00%
+
+    http_req_duration
+    ✓ 'p(95)<3000' p(95)=63.25ms
+
+    http_req_failed
+    ✓ 'rate<0.05' rate=0.00%
+
+    respostas_limitacao_429_503
+    ✓ 'count<1' count=0
+
+
+  █ TOTAL RESULTS 
+
+    checks_total.......: 546     8.591474/s
+    checks_succeeded...: 100.00% 546 out of 546
+    checks_failed......: 0.00%   0 out of 546
+
+    ✓ html: status 200
+    ✓ html: contém o título da barbearia
+    ✓ css: status 200
+    ✓ js_config: status 200
+    ✓ js_main: status 200
+    ✓ img_hero: status 200
+    ✓ fonte_titulos: status 200
+
+    CUSTOM
+    respostas_limitacao_429_503....: 0     0/s
+
+    HTTP
+    http_req_duration..............: avg=41.19ms min=26.28ms med=36.7ms max=198.59ms p(90)=56.05ms p(95)=63.25ms
+      { expected_response:true }...: avg=41.19ms min=26.28ms med=36.7ms max=198.59ms p(90)=56.05ms p(95)=63.25ms
+    http_req_failed................: 0.00% 0 out of 468
+    http_reqs......................: 468   7.36412/s
+
+    EXECUTION
+    iteration_duration.............: avg=3.99s   min=2.65s   med=3.95s  max=6.92s    p(90)=4.63s   p(95)=4.99s  
+    iterations.....................: 78    1.227353/s
+    vus............................: 2     min=2        max=5
+    vus_max........................: 5     min=5        max=5
+
+    NETWORK
+    data_received..................: 10 MB 158 kB/s
+    data_sent......................: 64 kB 1.0 kB/s
+
+
+
+
+carga_leve ✓ [ 100% ] 5 VUs  1m0s
+=== FIM 3-cinco-usuarios 2026-10-17T04:37:18Z (UTC) código de saída=0
