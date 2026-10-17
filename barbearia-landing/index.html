@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Barbearia Navalha — Corte, barba e cuidado masculino</title>
+  <meta name="description" content="Barbearia Navalha: cortes clássicos e modernos, barba com toalha quente e navalha, em um ambiente sofisticado. Agende seu horário pelo WhatsApp. (Projeto demonstrativo.)">
+  <!-- Projeto demonstrativo de empresa fictícia: não indexar. Remova esta linha ao publicar para um cliente real. -->
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#0e0d0c">
+  <meta name="color-scheme" content="dark">
+
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:site_name" content="Barbearia Navalha">
+  <meta property="og:title" content="Barbearia Navalha — Corte, barba e cuidado masculino">
+  <meta property="og:description" content="Cortes clássicos e modernos, barba com toalha quente e navalha. Agende pelo WhatsApp.">
+  <meta property="og:image" content="assets/img/og-image.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="assets/img/favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+
+  <link rel="preload" href="assets/fonts/playfair-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" as="image" type="image/webp"
+        imagesrcset="assets/img/hero-640.webp 640w, assets/img/hero-1280.webp 1280w, assets/img/hero-1920.webp 1920w"
+        imagesizes="100vw">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <div class="demo-banner" role="note">
+    Site demonstrativo de uma barbearia fictícia. Preços, avaliações, endereço e contatos são ilustrativos.
+  </div>
+
+  <header class="site-header" id="topo">
+    <div class="container header-inner">
+      <a class="logo" href="#inicio" aria-label="Barbearia Navalha — voltar ao início">
+        <svg class="logo-mark" viewBox="0 0 40 40" aria-hidden="true"><use href="#i-navalha"/></svg>
+        <span class="logo-text">Navalha<small>Barbearia</small></span>
+      </a>
+
+      <nav class="nav" id="menu-principal" aria-label="Navegação principal">
+        <ul>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#precos">Preços</a></li>
+          <li><a href="#equipe">Equipe</a></li>
+          <li><a href="#galeria">Galeria</a></li>
+          <li><a href="#horario">Horário</a></li>
+          <li><a href="#faq">Dúvidas</a></li>
+        </ul>
+        <a class="btn btn-gold nav-cta-mobile" href="#agendar">Agendar horário</a>
+      </nav>
+
+      <a class="btn btn-gold header-cta" href="#agendar">Agendar</a>
+
+      <button class="menu-toggle" type="button" aria-controls="menu-principal" aria-expanded="false" aria-label="Abrir menu">
+        <span class="menu-toggle-bar" aria-hidden="true"></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <!-- HERO -->
+    <section class="hero" id="inicio" aria-labelledby="hero-titulo">
+      <picture class="hero-media">
+        <img src="assets/img/hero-1280.webp"
+             srcset="assets/img/hero-640.webp 640w, assets/img/hero-1280.webp 1280w, assets/img/hero-1920.webp 1920w"
+             sizes="100vw" width="1920" height="1280" fetchpriority="high" decoding="async"
+             alt="Barbeiro aparando o cabelo de um cliente com tesoura, em ambiente de luz baixa.">
+      </picture>
+      <div class="container hero-content">
+        <p class="eyebrow">Corte · Barba · Cuidado masculino</p>
+        <h1 id="hero-titulo">Precisão de navalha.<br><span class="gold">Estilo que permanece.</span></h1>
+        <p class="hero-lead">Cortes clássicos e modernos, barba feita com toalha quente e acabamento na navalha. Um atendimento sem pressa, num ambiente pensado para você relaxar.</p>
+        <div class="hero-actions">
+          <a class="btn btn-gold btn-lg" href="#agendar">Agendar meu horário</a>
+          <a class="btn btn-ghost btn-lg" href="#servicos">Conhecer serviços</a>
+        </div>
+        <ul class="hero-facts" aria-label="Destaques">
+          <li><strong>45 min</strong><span>por atendimento, sem correria</span></li>
+          <li><strong>Seg a Sáb</strong><span>com horário estendido</span></li>
+          <li><strong>3</strong><span>barbeiros especializados</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- SOBRE -->
+    <section class="section" id="sobre" aria-labelledby="sobre-titulo">
+      <div class="container about">
+        <div class="about-media">
+          <img src="assets/img/sobre-1100.webp"
+               srcset="assets/img/sobre-640.webp 640w, assets/img/sobre-1100.webp 1100w"
+               sizes="(min-width: 960px) 50vw, 100vw" width="1100" height="733" loading="lazy" decoding="async"
+               alt="Mãos de um barbeiro usando pente e tesoura em um corte de cabelo masculino.">
+          <div class="about-badge" aria-hidden="true"><span>Tradição</span><strong>&amp;</strong><span>Técnica</span></div>
+        </div>
+        <div class="about-text">
+          <p class="eyebrow">A barbearia</p>
+          <h2 id="sobre-titulo">Um ritual de cuidado, do jeito que deve ser.</h2>
+          <p>A Navalha nasceu da vontade de resgatar o melhor da barbearia tradicional — a conversa, a toalha quente, o acabamento caprichado — sem abrir mão das técnicas atuais de corte e visagismo.</p>
+          <p>Cada atendimento começa entendendo o seu estilo, sua rotina e o formato do seu rosto. O resultado é um visual que funciona no espelho e no dia a dia.</p>
+          <ul class="check-list">
+            <li>Ferramentas higienizadas e lâminas descartáveis a cada cliente</li>
+            <li>Produtos profissionais para cabelo, barba e pele</li>
+            <li>Café, água e um ambiente tranquilo enquanto você espera</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVIÇOS -->
+    <section class="section section-alt" id="servicos" aria-labelledby="servicos-titulo">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow">Serviços</p>
+          <h2 id="servicos-titulo">Tudo o que o seu visual precisa</h2>
+          <p>Do corte rápido de manutenção ao ritual completo de barba, cada serviço é feito com tempo e atenção aos detalhes.</p>
+        </header>
+        <ul class="services">
+          <li class="service-card">
+            <svg class="icon" aria-hidden="true"><use href="#i-tesoura"/></svg>
+            <h3>Corte masculino</h3>
+            <p>Na tesoura ou na máquina, do clássico social ao degradê, com lavagem e finalização.</p>
+          </li>
+          <li class="service-card">
+            <svg class="icon" aria-hidden="true"><use href="#i-navalha"/></svg>
+            <h3>Barba na navalha</h3>
+            <p>Toalha quente, óleo pré-barba, desenho e acabamento na navalha com loção calmante.</p>
+          </li>
+          <li class="service-card">
+            <svg class="icon" aria-hidden="true"><use href="#i-toalha"/></svg>
+            <h3>Barboterapia</h3>
+            <p>Ritual completo com esfoliação, vapor de ozônio e hidratação profunda dos fios da barba.</p>
+          </li>
+          <li class="service-card">
+            <svg class="icon" aria-hidden="true"><use href="#i-pente"/></svg>
+            <h3>Pigmentação</h3>
+            <p>Preenche falhas e uniformiza a cor da barba ou do cabelo com acabamento natural.</p>
+          </li>
+          <li class="service-card">
+            <svg class="icon" aria-hidden="true"><use href="#i-gota"/></svg>
+            <h3>Hidratação capilar</h3>
+            <p>Tratamento para cabelos ressecados, com máscara profissional e massagem relaxante.</p>
+          </li>
+          <li class="service-card">
+            <svg class="icon" aria-hidden="true"><use href="#i-estrela"/></svg>
+            <h3>Sobrancelha e acabamento</h3>
+            <p>Limpeza de sobrancelha na navalha ou na pinça, pezinho e contorno entre cortes.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- PREÇOS -->
+    <section class="section" id="precos" aria-labelledby="precos-titulo">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow">Preços</p>
+          <h2 id="precos-titulo">Valores transparentes</h2>
+          <p class="note">Valores fictícios, apenas para demonstração.</p>
+        </header>
+
+        <div class="pricing">
+          <article class="price-card">
+            <h3>Corte</h3>
+            <p class="price"><span class="currency">R$</span>55</p>
+            <p class="price-desc">Corte completo com lavagem e finalização.</p>
+            <a class="btn btn-ghost" href="#agendar" data-servico="Corte masculino">Agendar corte</a>
+          </article>
+          <article class="price-card featured">
+            <p class="tag">Mais pedido</p>
+            <h3>Corte + Barba</h3>
+            <p class="price"><span class="currency">R$</span>90</p>
+            <p class="price-desc">O combo completo, com toalha quente e acabamento na navalha.</p>
+            <a class="btn btn-gold" href="#agendar" data-servico="Corte + Barba">Agendar combo</a>
+          </article>
+          <article class="price-card">
+            <h3>Barba</h3>
+            <p class="price"><span class="currency">R$</span>45</p>
+            <p class="price-desc">Desenho, toalha quente e acabamento na navalha.</p>
+            <a class="btn btn-ghost" href="#agendar" data-servico="Barba na navalha">Agendar barba</a>
+          </article>
+        </div>
+
+        <div class="price-table-wrap">
+          <table class="price-table">
+            <caption>Outros serviços</caption>
+            <thead>
+              <tr><th scope="col">Serviço</th><th scope="col">Duração</th><th scope="col">Valor</th></tr>
+            </thead>
+            <tbody>
+              <tr><th scope="row">Barboterapia</th><td>50 min</td><td>R$ 65</td></tr>
+              <tr><th scope="row">Pigmentação de barba ou cabelo</th><td>30 min</td><td>R$ 40</td></tr>
+              <tr><th scope="row">Hidratação capilar</th><td>30 min</td><td>R$ 35</td></tr>
+              <tr><th scope="row">Sobrancelha</th><td>15 min</td><td>R$ 20</td></tr>
+              <tr><th scope="row">Pezinho e contorno</th><td>15 min</td><td>R$ 20</td></tr>
+              <tr><th scope="row">Corte infantil (até 10 anos)</th><td>30 min</td><td>R$ 45</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- EQUIPE -->
+    <section class="section section-alt" id="equipe" aria-labelledby="equipe-titulo">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow">Equipe</p>
+          <h2 id="equipe-titulo">Quem cuida do seu visual</h2>
+          <p class="note">Perfis demonstrativos: nomes e descrições fictícios.</p>
+        </header>
+        <ul class="team">
+          <li class="team-card">
+            <div class="avatar" aria-hidden="true">RC</div>
+            <h3>Rafael Costa</h3>
+            <p class="role">Barbeiro fundador</p>
+            <p>Especialista em cortes clássicos na tesoura e barba tradicional. Gosta de um bom papo e de um acabamento impecável.</p>
+          </li>
+          <li class="team-card">
+            <div class="avatar" aria-hidden="true">LM</div>
+            <h3>Lucas Moreira</h3>
+            <p class="role">Degradê e cortes modernos</p>
+            <p>Referência em fade, navalhado e desenhos. Está sempre de olho nas tendências e nas técnicas mais novas.</p>
+          </li>
+          <li class="team-card">
+            <div class="avatar" aria-hidden="true">AS</div>
+            <h3>André Silva</h3>
+            <p class="role">Barba e visagismo</p>
+            <p>Desenha a barba de acordo com o formato do rosto e cuida da pigmentação e dos tratamentos.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- GALERIA -->
+    <section class="section" id="galeria" aria-labelledby="galeria-titulo">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow">Galeria</p>
+          <h2 id="galeria-titulo">Detalhes que fazem a diferença</h2>
+        </header>
+        <ul class="gallery">
+          <li class="g-tall"><img src="assets/img/galeria-corte-cacheado-480.webp" srcset="assets/img/galeria-corte-cacheado-480.webp 480w, assets/img/galeria-corte-cacheado-900.webp 900w" sizes="(min-width: 960px) 25vw, 50vw" width="480" height="721" loading="lazy" decoding="async" alt="Tesoura e pente cortando cabelo cacheado, em close."></li>
+          <li><img src="assets/img/galeria-tesoura-480.webp" srcset="assets/img/galeria-tesoura-480.webp 480w, assets/img/galeria-tesoura-900.webp 900w" sizes="(min-width: 960px) 25vw, 50vw" width="480" height="320" loading="lazy" decoding="async" alt="Mão de barbeiro segurando tesoura e pente durante o corte."></li>
+          <li><img src="assets/img/galeria-pente-480.webp" srcset="assets/img/galeria-pente-480.webp 480w, assets/img/galeria-pente-900.webp 900w" sizes="(min-width: 960px) 25vw, 50vw" width="480" height="320" loading="lazy" decoding="async" alt="Barbeiro usando pente e máquina na lateral da cabeça do cliente."></li>
+          <li class="g-wide"><img src="assets/img/galeria-finalizacao-480.webp" srcset="assets/img/galeria-finalizacao-480.webp 480w, assets/img/galeria-finalizacao-900.webp 900w" sizes="(min-width: 960px) 50vw, 100vw" width="480" height="320" loading="lazy" decoding="async" alt="Barbeiro borrifando água no cabelo do cliente, perto de uma janela iluminada."></li>
+          <li><img src="assets/img/galeria-atendimento-480.webp" srcset="assets/img/galeria-atendimento-480.webp 480w, assets/img/galeria-atendimento-900.webp 900w" sizes="(min-width: 960px) 25vw, 50vw" width="480" height="320" loading="lazy" decoding="async" alt="Barbeiro trabalhando no corte de um cliente sob luz quente."></li>
+          <li><img src="assets/img/galeria-secador-480.webp" srcset="assets/img/galeria-secador-480.webp 480w, assets/img/galeria-secador-900.webp 900w" sizes="(min-width: 960px) 25vw, 50vw" width="480" height="320" loading="lazy" decoding="async" alt="Secador vermelho sendo usado na finalização de um corte."></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- AVALIAÇÕES -->
+    <section class="section section-alt" id="avaliacoes" aria-labelledby="avaliacoes-titulo">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow">Avaliações</p>
+          <h2 id="avaliacoes-titulo">O que dizem os clientes</h2>
+          <p class="note"><strong>Conteúdo fictício:</strong> avaliações criadas apenas para demonstrar o layout.</p>
+        </header>
+        <ul class="reviews">
+          <li>
+            <figure class="review">
+              <p class="stars" role="img" aria-label="5 de 5 estrelas">★★★★★</p>
+              <blockquote><p>Melhor barba que já fiz. A toalha quente e o acabamento na navalha fazem toda a diferença. Saí outra pessoa.</p></blockquote>
+              <figcaption>Cliente demonstrativo A <span>Exemplo fictício</span></figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure class="review">
+              <p class="stars" role="img" aria-label="5 de 5 estrelas">★★★★★</p>
+              <blockquote><p>Ambiente muito agradável e atendimento pontual. O degradê ficou exatamente como eu pedi.</p></blockquote>
+              <figcaption>Cliente demonstrativo B <span>Exemplo fictício</span></figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure class="review">
+              <p class="stars" role="img" aria-label="4 de 5 estrelas">★★★★<span class="star-off">★</span></p>
+              <blockquote><p>Profissionais atenciosos, que explicam o que combina com o seu rosto. Agendar pelo WhatsApp é muito prático.</p></blockquote>
+              <figcaption>Cliente demonstrativo C <span>Exemplo fictício</span></figcaption>
+            </figure>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- HORÁRIO E LOCALIZAÇÃO -->
+    <section class="section" id="horario" aria-labelledby="horario-titulo">
+      <div class="container hours">
+        <div>
+          <p class="eyebrow">Horário e localização</p>
+          <h2 id="horario-titulo">Venha nos visitar</h2>
+          <p class="open-status" id="status-funcionamento" aria-live="polite"></p>
+          <table class="hours-table">
+            <caption class="visually-hidden">Horário de funcionamento</caption>
+            <tbody>
+              <tr data-dias="1,2,3,4,5"><th scope="row">Segunda a sexta</th><td>09:00 – 20:00</td></tr>
+              <tr data-dias="6"><th scope="row">Sábado</th><td>08:00 – 17:00</td></tr>
+              <tr data-dias="0"><th scope="row">Domingo e feriados</th><td>Fechado</td></tr>
+            </tbody>
+          </table>
+          <address class="address">
+            <strong>Endereço demonstrativo</strong>
+            Rua Exemplo, 123 — Centro<br>
+            Cidade Fictícia — UF, 00000-000
+          </address>
+          <p class="note">Endereço ilustrativo: não corresponde a um estabelecimento real.</p>
+        </div>
+        <figure class="map" aria-label="Mapa ilustrativo da localização">
+          <svg viewBox="0 0 480 360" role="img" aria-labelledby="mapa-titulo">
+            <title id="mapa-titulo">Mapa ilustrativo com ruas fictícias e a localização da Barbearia Navalha</title>
+            <rect width="480" height="360" fill="#161513"/>
+            <g stroke="#2a2824" stroke-width="18" fill="none" stroke-linecap="square">
+              <path d="M0 90H480M0 250H480M120 0V360M330 0V360"/>
+            </g>
+            <g stroke="#221f1b" stroke-width="8" fill="none">
+              <path d="M0 170H480M225 0V360M420 0V360M40 0V360"/>
+            </g>
+            <path d="M0 330 C120 300 200 360 300 320 S440 290 480 300" stroke="#1f2a2c" stroke-width="22" fill="none"/>
+            <g fill="#6f675c" font-family="Inter, sans-serif" font-size="13">
+              <text x="140" y="84">Rua Exemplo</text>
+              <text x="345" y="244">Av. Ilustrativa</text>
+              <text x="20" y="244">Praça Central</text>
+            </g>
+            <g transform="translate(228 132)">
+              <circle r="34" fill="#c9a45c" opacity=".14"/>
+              <circle r="18" fill="#c9a45c" opacity=".28"/>
+              <path d="M0 -26c-10 0-18 8-18 18 0 14 18 30 18 30s18-16 18-30c0-10-8-18-18-18z" fill="#c9a45c"/>
+              <circle cy="-8" r="6" fill="#0e0d0c"/>
+            </g>
+          </svg>
+          <figcaption>Mapa ilustrativo — substitua por um mapa real ao usar para um cliente.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- AGENDAMENTO -->
+    <section class="section section-alt" id="agendar" aria-labelledby="agendar-titulo">
+      <div class="container booking">
+        <div class="booking-intro">
+          <p class="eyebrow">Agendamento</p>
+          <h2 id="agendar-titulo">Reserve seu horário</h2>
+          <p>Preencha os dados ao lado e prepararemos uma mensagem pronta para o WhatsApp da barbearia. Se preferir, fale direto com a gente.</p>
+          <button class="btn btn-whatsapp btn-lg" type="button" data-whatsapp>
+            <svg class="icon" aria-hidden="true"><use href="#i-whatsapp"/></svg>
+            Falar pelo WhatsApp
+          </button>
+          <p class="note">WhatsApp demonstrativo: <span data-whatsapp-exibicao></span></p>
+        </div>
+
+        <form class="booking-form" id="form-agendamento" novalidate>
+          <div class="form-notice" role="note">
+            <strong>Formulário demonstrativo.</strong> Nenhum dado é enviado ou armazenado: ao confirmar, você verá apenas a prévia da mensagem que seria enviada pelo WhatsApp.
+          </div>
+
+          <div class="field">
+            <label for="nome">Nome</label>
+            <input id="nome" name="nome" type="text" autocomplete="name" required minlength="3" maxlength="60" aria-describedby="nome-erro">
+            <p class="field-error" id="nome-erro" aria-live="polite"></p>
+          </div>
+
+          <div class="field">
+            <label for="telefone">Telefone / WhatsApp</label>
+            <input id="telefone" name="telefone" type="tel" inputmode="tel" autocomplete="tel-national" required placeholder="(00) 00000-0000" aria-describedby="telefone-erro">
+            <p class="field-error" id="telefone-erro" aria-live="polite"></p>
+          </div>
+
+          <div class="field-row">
+            <div class="field">
+              <label for="servico">Serviço</label>
+              <select id="servico" name="servico" required aria-describedby="servico-erro">
+                <option value="">Selecione…</option>
+                <option>Corte masculino</option>
+                <option>Barba na navalha</option>
+                <option>Corte + Barba</option>
+                <option>Barboterapia</option>
+                <option>Pigmentação</option>
+                <option>Hidratação capilar</option>
+                <option>Sobrancelha e acabamento</option>
+                <option>Corte infantil</option>
+              </select>
+              <p class="field-error" id="servico-erro" aria-live="polite"></p>
+            </div>
+            <div class="field">
+              <label for="profissional">Profissional <span class="optional">(opcional)</span></label>
+              <select id="profissional" name="profissional">
+                <option value="">Sem preferência</option>
+                <option>Rafael Costa</option>
+                <option>Lucas Moreira</option>
+                <option>André Silva</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="field-row">
+            <div class="field">
+              <label for="data">Data</label>
+              <input id="data" name="data" type="date" required aria-describedby="data-erro">
+              <p class="field-error" id="data-erro" aria-live="polite"></p>
+            </div>
+            <div class="field">
+              <label for="horario-pref">Horário</label>
+              <select id="horario-pref" name="horario" required aria-describedby="horario-erro">
+                <option value="">Selecione…</option>
+              </select>
+              <p class="field-error" id="horario-erro" aria-live="polite"></p>
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="obs">Observações <span class="optional">(opcional)</span></label>
+            <textarea id="obs" name="obs" rows="3" maxlength="300" aria-describedby="obs-contador"></textarea>
+            <p class="field-hint" id="obs-contador">0/300 caracteres</p>
+          </div>
+
+          <button class="btn btn-gold btn-lg btn-block" type="submit">
+            <span class="btn-label">Preparar mensagem de agendamento</span>
+            <span class="spinner" aria-hidden="true"></span>
+          </button>
+          <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section" id="faq" aria-labelledby="faq-titulo">
+      <div class="container faq">
+        <header class="section-head">
+          <p class="eyebrow">Perguntas frequentes</p>
+          <h2 id="faq-titulo">Dúvidas comuns</h2>
+        </header>
+        <div class="faq-list">
+          <details>
+            <summary>Preciso agendar ou posso ir sem horário marcado?</summary>
+            <p>Atendemos por ordem de chegada quando há horários livres, mas recomendamos agendar pelo WhatsApp para garantir o seu horário e o profissional de preferência.</p>
+          </details>
+          <details>
+            <summary>Quais formas de pagamento são aceitas?</summary>
+            <p>Dinheiro, Pix e cartões de débito e crédito. (Informação demonstrativa.)</p>
+          </details>
+          <details>
+            <summary>Quanto tempo dura um corte?</summary>
+            <p>Em média, 45 minutos para o corte e 30 minutos para a barba. O combo leva cerca de 1 hora e 15 minutos.</p>
+          </details>
+          <details>
+            <summary>E se eu precisar remarcar ou cancelar?</summary>
+            <p>Avise com pelo menos 2 horas de antecedência pelo WhatsApp. Assim conseguimos oferecer o horário para outro cliente.</p>
+          </details>
+          <details>
+            <summary>Vocês atendem crianças?</summary>
+            <p>Sim. O corte infantil é para crianças de até 10 anos, sempre acompanhadas de um responsável.</p>
+          </details>
+          <details>
+            <summary>Os materiais são esterilizados?</summary>
+            <p>Sim. Pentes, tesouras e máquinas passam por higienização após cada atendimento, e as lâminas de navalha são descartáveis e trocadas a cada cliente.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="contato">
+    <div class="container footer-grid">
+      <div>
+        <a class="logo" href="#inicio" aria-label="Barbearia Navalha — voltar ao início">
+          <svg class="logo-mark" viewBox="0 0 40 40" aria-hidden="true"><use href="#i-navalha"/></svg>
+          <span class="logo-text">Navalha<small>Barbearia</small></span>
+        </a>
+        <p class="footer-tag">Corte, barba e cuidado masculino com precisão de navalha.</p>
+      </div>
+      <div>
+        <h2 class="footer-title">Contato</h2>
+        <ul class="footer-list">
+          <li>WhatsApp: <span data-whatsapp-exibicao></span></li>
+          <li>E-mail: contato@exemplo.invalid <span class="note">(fictício)</span></li>
+          <li>Rua Exemplo, 123 — Centro, Cidade Fictícia</li>
+        </ul>
+      </div>
+      <div>
+        <h2 class="footer-title">Horário</h2>
+        <ul class="footer-list">
+          <li>Seg a Sex: 09:00 – 20:00</li>
+          <li>Sábado: 08:00 – 17:00</li>
+          <li>Domingo: fechado</li>
+        </ul>
+      </div>
+      <div>
+        <h2 class="footer-title">Navegação</h2>
+        <ul class="footer-list footer-links">
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#precos">Preços</a></li>
+          <li><a href="#agendar">Agendamento</a></li>
+          <li><a href="#faq">Perguntas frequentes</a></li>
+          <li><a href="creditos.html">Créditos das imagens e fontes</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© <span id="ano">2026</span> Barbearia Navalha — empresa fictícia, site criado como projeto demonstrativo.</p>
+      <a href="#topo" class="back-top">Voltar ao topo ↑</a>
+    </div>
+  </footer>
+
+  <dialog class="dialog" id="dialogo-whatsapp" aria-labelledby="dialogo-titulo">
+    <form method="dialog" class="dialog-inner">
+      <h2 id="dialogo-titulo">Modo demonstrativo</h2>
+      <p id="dialogo-texto">Este site usa um número de WhatsApp demonstrativo, por isso nenhuma conversa foi aberta. Com um número real configurado, o botão abriria o WhatsApp com a mensagem abaixo:</p>
+      <pre class="dialog-preview" id="dialogo-mensagem"></pre>
+      <div class="dialog-actions">
+        <button class="btn btn-gold" value="ok" autofocus>Entendi</button>
+      </div>
+    </form>
+  </dialog>
+
+  <!-- Ícones (sprite SVG) -->
+  <svg class="svg-sprite" width="0" height="0" aria-hidden="true" focusable="false">
+    <defs>
+      <symbol id="i-navalha" viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M6 30 L24 12 c3-3 8-3 10 0 l-20 20 z"/><path d="M14 32 l-6 6"/><circle cx="12" cy="34" r="1.2" fill="currentColor"/><path d="M8 28 l4 4"/>
+      </symbol>
+      <symbol id="i-tesoura" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="6" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><path d="M20 4 8.1 15.9M14.5 14.5 20 20M8.1 8.1 12 12"/>
+      </symbol>
+      <symbol id="i-toalha" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M8 3c-1 1.5 1 2.5 0 4M12 3c-1 1.5 1 2.5 0 4M16 3c-1 1.5 1 2.5 0 4"/><rect x="4" y="10" width="16" height="10" rx="2"/><path d="M4 14h16"/>
+      </symbol>
+      <symbol id="i-pente" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="3" y="5" width="18" height="5" rx="1"/><path d="M5 10v8M8 10v8M11 10v8M14 10v8M17 10v8M20 10v6"/>
+      </symbol>
+      <symbol id="i-gota" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M12 3s6 6.5 6 11a6 6 0 0 1-12 0c0-4.5 6-11 6-11z"/><path d="M9 15a3 3 0 0 0 3 3"/>
+      </symbol>
+      <symbol id="i-estrela" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M12 3l2.6 5.6 6.1.7-4.5 4.2 1.2 6L12 16.6 6.6 19.5l1.2-6L3.3 9.3l6.1-.7z"/>
+      </symbol>
+      <symbol id="i-whatsapp" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2-.1-.1-.2-.2-.5-.3z"/>
+      </symbol>
+    </defs>
+  </svg>
+
+  <script src="js/config.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+{
+  "name": "barbearia-navalha-testes",
+  "private": true,
+  "description": "Ferramentas de teste da landing page (não fazem parte do site publicado).",
+  "type": "module",
+  "scripts": {
+    "serve": "node serve.mjs 8080",
+    "test:funcional": "node functional.mjs",
+    "test:disponibilidade": "node availability-check.mjs"
+  },
+  "devDependencies": {
+    "puppeteer-core": "24.10.0"
+  }
+}

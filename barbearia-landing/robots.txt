@@ -1,0 +1,3 @@
+# Site demonstrativo de empresa fictícia — não indexar.
+User-agent: *
+Disallow: /

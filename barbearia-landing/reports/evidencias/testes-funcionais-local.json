@@ -1,0 +1,394 @@
+{
+  "alvo": "http://127.0.0.1:8089",
+  "data": "2026-10-17T04:16:47.874Z",
+  "navegador": "Chrome/155.0.8059.82",
+  "total": 64,
+  "passou": 64,
+  "falhou": 0,
+  "resultados": [
+    {
+      "grupo": "layout celular 360px",
+      "nome": "página inicial responde 200",
+      "ok": true,
+      "detalhe": "HTTP 200"
+    },
+    {
+      "grupo": "layout celular 360px",
+      "nome": "sem rolagem horizontal",
+      "ok": true,
+      "detalhe": "excesso 0px"
+    },
+    {
+      "grupo": "layout celular 360px",
+      "nome": "todas as imagens carregadas",
+      "ok": true,
+      "detalhe": "8/8"
+    },
+    {
+      "grupo": "layout celular 360px",
+      "nome": "fontes Playfair Display e Inter carregadas",
+      "ok": true,
+      "detalhe": "[true,true]"
+    },
+    {
+      "grupo": "layout celular 360px",
+      "nome": "botão de menu móvel visível e menu recolhido",
+      "ok": true,
+      "detalhe": ""
+    },
+    {
+      "grupo": "layout celular 360px",
+      "nome": "sem erros de JavaScript",
+      "ok": true,
+      "detalhe": ""
+    },
+    {
+      "grupo": "layout celular 360px",
+      "nome": "sem erros/avisos no console",
+      "ok": true,
+      "detalhe": ""
+    },
+    {
+      "grupo": "layout celular 360px",
+      "nome": "sem falhas de rede ou HTTP ≥ 400",
+      "ok": true,
+      "detalhe": ""
+    },
+    {
+      "grupo": "layout tablet 768px",
+      "nome": "página inicial responde 200",
+      "ok": true,
+      "detalhe": "HTTP 200"
+    },
+    {
+      "grupo": "layout tablet 768px",
+      "nome": "sem rolagem horizontal",
+      "ok": true,
+      "detalhe": "excesso 0px"
+    },
+    {
+      "grupo": "layout tablet 768px",
+      "nome": "todas as imagens carregadas",
+      "ok": true,
+      "detalhe": "8/8"
+    },
+    {
+      "grupo": "layout tablet 768px",
+      "nome": "fontes Playfair Display e Inter carregadas",
+      "ok": true,
+      "detalhe": "[true,true]"
+    },
+    {
+      "grupo": "layout tablet 768px",
+      "nome": "botão de menu móvel visível e menu recolhido",
+      "ok": true,
+      "detalhe": ""
+    },
+    {
+      "grupo": "layout tablet 768px",
+      "nome": "sem erros de JavaScript",
+      "ok": true,
+      "detalhe": ""
+    },
+    {
+      "grupo": "layout tablet 768px",
+      "nome": "sem erros/avisos no console",
+      "ok": true,
+      "detalhe": ""
+    },
+    {
+      "grupo": "layout tablet 768px",
+      "nome": "sem falhas de rede ou HTTP ≥ 400",
+      "ok": true,
+      "detalhe": ""
+    },
+    {
+      "grupo": "layout desktop 1366px",
+      "nome": "página inicial responde 200",
+      "ok": true,
+      "detalhe": "HTTP 200"
+    },
+    {
+      "grupo": "layout desktop 1366px",
+      "nome": "sem rolagem horizontal",
+      "ok": true,
+      "detalhe": "excesso 0px"
+    },
+    {
+      "grupo": "layout desktop 1366px",
+      "nome": "todas as imagens carregadas",
+      "ok": true,
+      "detalhe": "8/8"
+    },
+    {
+      "grupo": "layout desktop 1366px",
+      "nome": "fontes Playfair Display e Inter carregadas",
+      "ok": true,
+      "detalhe": "[true,true]"
+    },
+    {
+      "grupo": "layout desktop 1366px",
+      "nome": "navegação completa visível e botão de menu oculto",
+      "ok": true,
+      "detalhe": ""
+    },
+    {
+      "grupo": "layout desktop 1366px",
+      "nome": "sem erros de JavaScript",
+      "ok": true,
+      "detalhe": ""
+    },
+    {
+      "grupo": "layout desktop 1366px",
+      "nome": "sem erros/avisos no console",
+      "ok": true,
+      "detalhe": ""
+    },
+    {
+      "grupo": "layout desktop 1366px",
+      "nome": "sem falhas de rede ou HTTP ≥ 400",
+      "ok": true,
+      "detalhe": ""
+    },
+    {
+      "grupo": "metadados e acessibilidade",
+      "nome": "lang=pt-BR",
+      "ok": true,
+      "detalhe": "pt-BR"
+    },
+    {
+      "grupo": "metadados e acessibilidade",
+      "nome": "título definido",
+      "ok": true,
+      "detalhe": "Barbearia Navalha — Corte, barba e cuidado masculino"
+    },
+    {
+      "grupo": "metadados e acessibilidade",
+      "nome": "meta description (50–170 caracteres)",
+      "ok": true,
+      "detalhe": "169 caracteres"
+    },
+    {
+      "grupo": "metadados e acessibilidade",
+      "nome": "meta viewport, favicon e Open Graph",
+      "ok": true,
+      "detalhe": ""
+    },
+    {
+      "grupo": "metadados e acessibilidade",
+      "nome": "exatamente um <h1>",
+      "ok": true,
+      "detalhe": "1"
+    },
+    {
+      "grupo": "metadados e acessibilidade",
+      "nome": "landmarks header/nav/main/footer",
+      "ok": true,
+      "detalhe": ""
+    },
+    {
+      "grupo": "metadados e acessibilidade",
+      "nome": "todas as imagens com texto alternativo",
+      "ok": true,
+      "detalhe": ""
+    },
+    {
+      "grupo": "metadados e acessibilidade",
+      "nome": "sem IDs duplicados",
+      "ok": true,
+      "detalhe": ""
+    },
+    {
+      "grupo": "metadados e acessibilidade",
+      "nome": "campos de formulário com <label>",
+      "ok": true,
+      "detalhe": ""
+    },
+    {
+      "grupo": "metadados e acessibilidade",
+      "nome": "links e botões com nome acessível",
+      "ok": true,
+      "detalhe": "0 sem nome"
+    },
+    {
+      "grupo": "metadados e acessibilidade",
+      "nome": "âncoras internas apontam para IDs existentes",
+      "ok": true,
+      "detalhe": "todas válidas"
+    },
+    {
+      "grupo": "metadados e acessibilidade",
+      "nome": "nenhum recurso de domínio externo carregado",
+      "ok": true,
+      "detalhe": ""
+    },
+    {
+      "grupo": "metadados e acessibilidade",
+      "nome": "links e recursos relativos respondem 200",
+      "ok": true,
+      "detalhe": "17 verificados"
+    },
+    {
+      "grupo": "metadados e acessibilidade",
+      "nome": "primeiro Tab foca o link 'Pular para o conteúdo'",
+      "ok": true,
+      "detalhe": "Pular para o conteúdo"
+    },
+    {
+      "grupo": "metadados e acessibilidade",
+      "nome": "/creditos.html responde 200",
+      "ok": true,
+      "detalhe": "HTTP 200"
+    },
+    {
+      "grupo": "metadados e acessibilidade",
+      "nome": "/404.html responde 200",
+      "ok": true,
+      "detalhe": "HTTP 200"
+    },
+    {
+      "grupo": "metadados e acessibilidade",
+      "nome": "rota inexistente responde 404 com página própria",
+      "ok": true,
+      "detalhe": "HTTP 404"
+    },
+    {
+      "grupo": "menu móvel",
+      "nome": "abre ao tocar no botão (aria-expanded=true)",
+      "ok": true,
+      "detalhe": "{\"exp\":\"true\",\"vis\":\"visible\",\"label\":\"Fechar menu\"}"
+    },
+    {
+      "grupo": "menu móvel",
+      "nome": "menu aberto encosta no cabeçalho (sem faixa vazia)",
+      "ok": true,
+      "detalhe": "diferença -1px"
+    },
+    {
+      "grupo": "menu móvel",
+      "nome": "fecha com Esc e devolve o foco ao botão",
+      "ok": true,
+      "detalhe": "{\"exp\":\"false\",\"foco\":\"menu-toggle\"}"
+    },
+    {
+      "grupo": "menu móvel",
+      "nome": "link do menu fecha o menu e rola até a seção",
+      "ok": true,
+      "detalhe": "{\"exp\":\"false\",\"hash\":\"#precos\",\"topo\":84}"
+    },
+    {
+      "grupo": "menu móvel",
+      "nome": "sem erros de JavaScript",
+      "ok": true,
+      "detalhe": ""
+    },
+    {
+      "grupo": "botões e interações",
+      "nome": "CTAs (botões com âncora) apontam para seções existentes",
+      "ok": true,
+      "detalhe": "7 botões: #agendar #servicos"
+    },
+    {
+      "grupo": "botões e interações",
+      "nome": "botão do card de preço pré-seleciona o serviço",
+      "ok": true,
+      "detalhe": "Corte + Barba"
+    },
+    {
+      "grupo": "botões e interações",
+      "nome": "botão WhatsApp em modo demo abre a prévia (sem sair do site)",
+      "ok": true,
+      "detalhe": "Olá! Vim pelo site da Barbearia Navalha e gostaria de agendar um horário."
+    },
+    {
+      "grupo": "botões e interações",
+      "nome": "diálogo fecha com Esc",
+      "ok": true,
+      "detalhe": ""
+    },
+    {
+      "grupo": "botões e interações",
+      "nome": "número exibido identificado como demonstrativo",
+      "ok": true,
+      "detalhe": "(00) 00000-0000 — número demonstrativo"
+    },
+    {
+      "grupo": "botões e interações",
+      "nome": "pergunta do FAQ expande ao clicar",
+      "ok": true,
+      "detalhe": ""
+    },
+    {
+      "grupo": "botões e interações",
+      "nome": "indicador 'aberto/fechado agora' preenchido",
+      "ok": true,
+      "detalhe": "Fechado agora · abre hoje às 08:00"
+    },
+    {
+      "grupo": "formulário",
+      "nome": "envio vazio é bloqueado e marca os campos obrigatórios",
+      "ok": true,
+      "detalhe": "nome, telefone, servico, data, horario"
+    },
+    {
+      "grupo": "formulário",
+      "nome": "mensagem de erro geral e foco no primeiro campo inválido",
+      "ok": true,
+      "detalhe": "Corrija os 5 campos destacados para continuar. / foco: nome"
+    },
+    {
+      "grupo": "formulário",
+      "nome": "telefone incompleto exibe erro específico",
+      "ok": true,
+      "detalhe": "Use o formato (00) 00000-0000, com DDD."
+    },
+    {
+      "grupo": "formulário",
+      "nome": "domingo é recusado e horários ficam indisponíveis",
+      "ok": true,
+      "detalhe": "{\"erro\":\"Não abrimos neste dia. Escolha outra data.\",\"hor\":true}"
+    },
+    {
+      "grupo": "formulário",
+      "nome": "terça-feira oferece horários de 09:00 a 19:30",
+      "ok": true,
+      "detalhe": "22 horários: 09:00…19:30"
+    },
+    {
+      "grupo": "formulário",
+      "nome": "máscara de telefone aplicada",
+      "ok": true,
+      "detalhe": "(11) 98765-4321"
+    },
+    {
+      "grupo": "formulário",
+      "nome": "contador de caracteres das observações",
+      "ok": true,
+      "detalhe": "19/300 caracteres"
+    },
+    {
+      "grupo": "formulário",
+      "nome": "envio válido abre a prévia com os dados preenchidos",
+      "ok": true,
+      "detalhe": "Olá! Gostaria de agendar um horário na Barbearia Navalha. |  | Nome: Cliente Teste | Telefone: (11) 98765-4321 | Serviço: Barboterapia | Profissional: Lucas Moreira | Data: 20/10/2026 (terça-feira) | Horário: 10:30 | Observações: Teste automatizado."
+    },
+    {
+      "grupo": "formulário",
+      "nome": "status informa que nada foi enviado ou armazenado",
+      "ok": true,
+      "detalhe": "Prévia gerada. Como este site é demonstrativo, nenhum dado foi enviado ou armazenado."
+    },
+    {
+      "grupo": "formulário",
+      "nome": "estado de carregamento é encerrado após o envio",
+      "ok": true,
+      "detalhe": "aria-busy=false"
+    },
+    {
+      "grupo": "formulário",
+      "nome": "sem erros de JavaScript",
+      "ok": true,
+      "detalhe": ""
+    }
+  ]
+}
